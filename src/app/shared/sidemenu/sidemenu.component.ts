@@ -52,5 +52,9 @@ export class SidemenuComponent {
       texto: 'Ejemplos',
       ruta: './ejemplo/basico',
     },
+    {
+      texto: 'formTest',
+      ruta: './ejemplo/formTest',
+    },
   ];
 }

@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { EjemploRoutingModule } from './ejemplo-routing.module';
 import { BasicosComponent } from './basicos/basicos.component';
+import { FormTestComponent } from './formTest/formTest.component';
 import { CustomMinDirective } from './directives/custom-min.directive';
 
 @NgModule({
-  declarations: [BasicosComponent, CustomMinDirective],
+  declarations: [BasicosComponent, FormTestComponent, CustomMinDirective],
   imports: [CommonModule, FormsModule, EjemploRoutingModule],
 })
 export class EjemploModule {}
